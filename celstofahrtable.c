@@ -31,12 +31,13 @@ int main()
     return 0;
 }
 
-// converts float cels parameter and returns fahrenheit value
+// Converts float cels parameter and returns float fahrenheit value
 float celstofahr(float cels)
 {
     return cels * 9.0 / 5.0 + 32.0;
 }
 
+// Prints table heading
 void printbanner()
 {
     printf("***************************\n");
